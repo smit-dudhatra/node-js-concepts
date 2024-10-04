@@ -1,3 +1,10 @@
-28 - 
+27 - 
 
 if port is not specified , then default port will be 80 (in productions this seems useful).
+
+28-
+
+process.exit() will end the event loop and gives back the control to the terminal
+
+30-
+originalUrl is the property of express , not the core property of node core module 
