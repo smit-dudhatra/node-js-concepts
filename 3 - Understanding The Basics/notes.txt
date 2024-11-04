@@ -8,3 +8,9 @@ process.exit() will end the event loop and gives back the control to the termina
 
 30-
 originalUrl is the property of express , not the core property of node core module 
+
+34- 
+for redirect the status code is necessary,without that it will not redirect
+
+res.statusCode = 302
+res.setHeader("Location" , "/");
