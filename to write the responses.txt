@@ -1,0 +1,19 @@
+only native response
+
+res.setHeader()
+res.write()
+res.end();
+return;
+
+to close the server
+
+server(returned by http.createServer).close(() => {
+    console.log('this close event will close the server');
+});
+
+-----------
+
+with express
+
+res.send(); >> to send text response
+res.sendFile(); >> sendFile

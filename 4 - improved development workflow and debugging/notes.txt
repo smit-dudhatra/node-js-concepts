@@ -1,0 +1,6 @@
+types of errors:-
+
+syntax errors >> syntatical errros
+runtime errors >> errors that occurs while running the program
+logical errors >> no errors on terminal and not getting any error but also not getting the desired output   
+

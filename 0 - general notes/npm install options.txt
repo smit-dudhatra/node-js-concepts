@@ -4,9 +4,11 @@ if not specified
 will be saved as "dependecies"
 
 -g , --global >> 
---save-dev , -D >> will install in devDependencies
 --save-prod , -P >> will install in dependencies
+--save-dev , -D >> will install in devDependencies
 --save-optional , -O >> will install in optionalDependencies
+--save-peer >> will install in peerDependencies
 --no-save >> will prevents saving to dependencies
+--save >> not needed now (will install in dependencies)
 
 https://stackoverflow.com/questions/18875674/whats-the-difference-between-dependencies-devdependencies-and-peerdependencie
